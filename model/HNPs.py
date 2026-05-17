@@ -3,10 +3,10 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.distributions import Normal
 from config import get_config
-from HMNPs_modules import *
+from HNPs_modules import *
 
 
-class HMNP(nn.Module):
+class HNP(nn.Module):
     def __init__(self, config):
         super().__init__()
         self.config = config
